@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProdutosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,32 +14,25 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-use App\Http\Controllers\ProdutosController;
-
 Route::get('/', function () {
-    return view(view: 'home');
+    return view('home');
 })->name('home');
 
 Route::get('/auth', function () {
-    return view(view: 'auth');
+    return view('auth');
 })->name('auth');
 
 Route::get('/howweare', function () {
-    return view(view: 'howweare');
+    return view('howweare');
 })->name('howweare');
 
 Route::get('/contact', function () {
-    return view(view: 'contact');
+    return view('contact');
 })->name('contact');
 
-Route::get('/produtos/productpage', function () {
-    return view(view: 'productpage');
-})->name('productpage');
-
 Route::get('/highlights', function () {
-    return view(view: 'highlights');
+    return view('highlights');
 })->name('highlights');
 
-Route::get('/produtos/novo', [ProdutosController::class, 'create']);
+Route::get('/produtos/novo', [ProdutosController::class, 'create'])->name('productpage');
 Route::post('/produtos/novo', [ProdutosController::class, 'store'])->name('registrar_produto');
-Route::get('/register/novo', [UserController::class, 'index']);
