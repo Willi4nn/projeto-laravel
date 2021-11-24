@@ -47,8 +47,8 @@
                     <input class="form-control col-sm-8 mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-light" type="submit">Pesquisar</button>
                 </form>
-                <a class="btn btn-primary mr-sm-2" type="submit" href="#" role="button">Entrar</a>
-                <a class="btn btn-info" type="submit" href="{{ route('auth') }}" role="button">Cadastre-se</a>
+                <a class="btn btn-primary mr-sm-2" type="submit" href="{{ route('admin') }}" role="button">Entrar</a>
+                <a class="btn btn-info" type="submit" href="{{ route('signup') }}" role="button">Cadastre-se</a>
             </div>
         </nav>
     </header>
