@@ -17,7 +17,7 @@
 
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="{{ route('home') }}">
+            <a class="navbar-brand" href="{{ route('homepage') }}">
                 <img src="http://localhost/price-compare/public/assets/logo.png" width="100" alt="">
             </a>
 
@@ -27,8 +27,8 @@
 
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item {{(Route::current()->getName() === 'home' ? 'active' : '') }}">
-                        <a class="nav-link" href="{{ route('home') }}">Home</a>
+                    <li class="nav-item {{(Route::current()->getName() === 'homepage' ? 'active' : '') }}">
+                        <a class="nav-link" href="{{ route('homepage') }}">Home</a>
                     </li>
                     <li class="nav-item {{(Route::current()->getName() === 'productpage' ? 'active' : '') }}">
                         <a class="nav-link" href="{{ route('productpage') }}">Produtos</a>

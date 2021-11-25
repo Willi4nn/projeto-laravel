@@ -21,6 +21,6 @@ class ProdutosController extends Controller
             'quantidade' => $request->quantidade,
         ]);
 
-        return "Produto Criado com Sucesso!";
+        return view('produtos.productpage');
     }
 }

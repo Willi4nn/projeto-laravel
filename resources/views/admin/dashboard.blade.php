@@ -1,15 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('master.layout')
+@section('content')
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Painel de Administração</title>
-</head>
+<div class="jumbotron">
+    <div class="container text-center">
+        <h1 class="display-4">Painel Administrativo</h1>
+        <hr class="my-4">
+        <a href="{{ route('admin.logout')}}"><button type="submit" class="btn btn-outline-danger">Logout</button></a>
+    </div>
+    <div class="container p-5 col-md-5">
+        <table border="1" class="table table-striped table-dark">
+            <tr>
+                <td>Id</td>
+                <td>Nome</td>
+                <td>Email</td>
+                <td>Mensagem</td>
+            </tr>
 
-<body>
-    <h1>painel</h1>
-</body>
+            @foreach($contacts as $contact)
+            <tr>
+                <td>{{$contact['id']}}</td>
+                <td>{{$contact['name']}}</td>
+                <td>{{$contact['email']}}</td>
+                <td>{{$contact['message']}}</td>
+            </tr>
+            @endforeach
 
-</html>
+        </table>
+    </div>
+</div>
+@endsection
