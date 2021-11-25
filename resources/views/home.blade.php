@@ -100,4 +100,3 @@
     <!-- /END THE FEATURETTES -->
 
 </div><!-- /.container -->
-@endsection

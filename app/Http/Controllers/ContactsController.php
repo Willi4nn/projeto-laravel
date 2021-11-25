@@ -20,7 +20,7 @@ class ContactsController extends Controller
             'message' => $request->message
         ]);
 
-        return redirect('contact');
+        return "Contato armazenado com sucesso!";
     }
 
     function show()

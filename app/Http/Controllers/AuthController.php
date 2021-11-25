@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Hash;
 
 class AuthController extends Controller
 {
@@ -26,11 +25,7 @@ class AuthController extends Controller
             'password' => $request->password,
         ]);
 
-        $request->User()->fill([
-            'password' => Hash::make($request->newPassword)
-        ])->save();
-
-        return view('produtos.productpage');
+        return view('home');
     }
 
     public function showLoginForm()
@@ -49,7 +44,7 @@ class AuthController extends Controller
         ];
 
         if (Auth::attempt($credentials)) {
-            return redirect()->route('admin');
+            return redirect()->route('admin.show');
         }
 
         return redirect()->back()->withInput()->withErrors(['Os dados informados não conferem!']);

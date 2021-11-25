@@ -6,7 +6,7 @@
         <h1 class="display-4">Produtos</h1>
         <hr class="my-4">
         <p>Cadastre um produto para a loja</p>
-        <form class="text-justify col-md-4" action="{{ route('registrar_produto') }}" method="POST">
+        <form class="text-justify col-md-4" action="{{ route('registrar.produto') }}" method="POST">
             @csrf
             <div class="form-group">
                 <label for="inputAddress">Nome</label>
