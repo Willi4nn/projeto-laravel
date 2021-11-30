@@ -39,19 +39,19 @@
         <div class="col-lg-4">
             <img class="rounded-circle" src="http://localhost/price-compare/public/assets/tenis.jpg" alt="Generic placeholder image" width="140" height="140">
             <h2>Calçados</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <p>Apaixonadas por sapatos. Frases de moda. Shoes lovers. Tanara Brasil. <3< /p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
             <img class="rounded-circle" src="http://localhost/price-compare/public/assets/camisa.jpg" alt="Generic placeholder image" width="140" height="140">
             <h2>Roupas</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <p>As roupas são uma ótima maneira de se expressar. Com as cores, texturas e formas dos tecidos, é possível fazer uma imensidão de combinações no próprio corpo. Por isso, é como se fôssemos uma tela em branco pintada com roupas, uma verdadeira obra de arte. Confira essa seleção de frases de moda e se inspire a ser seu próprio artista!</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
             <img class="rounded-circle" src="http://localhost/price-compare/public/assets/pulseira.jpg" alt="Generic placeholder image" width="140" height="140">
             <h2>Acessórios</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p>A moda é uma forma de cada um expressar sua personalidade, e os acessórios fazem isso com perfeição. Muito mais do que simples complementos, eles podem fazer toda a diferença no seu visual. Se interessou? Veja as melhores formas de usar cada acessório, e de um up no seu look!</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
@@ -62,21 +62,9 @@
     <hr class="featurette-divider">
 
     <div class="row featurette">
-        <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="https://images.lojanike.com.br/1200x630/produto/tenis-nike-revolution-5-icon-clash-feminino-BQ3207-002-1.jpg" alt="Generic placeholder image">
-        </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
         <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">Tênis Nike</h2>
+            <p class="lead">Os Melhores Lançamentos para o seu Esporte. Uma Experiência Premium de Compra.</p>
         </div>
         <div class="col-md-5 order-md-1">
             <img class="featurette-image img-fluid mx-auto" src="https://images.lojanike.com.br/1200x630/produto/tenis-nike-revolution-5-icon-clash-feminino-BQ3207-002-1.jpg" alt="Generic placeholder image">
@@ -87,11 +75,23 @@
 
     <div class="row featurette">
         <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">Produtos Lacoste</h2>
+            <p class="lead">Alpha Industry, Gloverall, K-Way®, Pyrenex e Tailor Toyo. A Lacoste fez uma parceria com cinco marcas lendárias para criar cinco casacos icônicos para o inverno.</p>
         </div>
         <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="https://images.lojanike.com.br/1200x630/produto/tenis-nike-revolution-5-icon-clash-feminino-BQ3207-002-1.jpg" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto" src="https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-BRECOM-Site/Library-Sites-LacosteContent/pt_BR/dw0770f0c3/ss20/modular/brandsection/collabs/lacosteinside-collabs-push-component-tile-basic-wintericons-desktop.jpg?imwidth=840&impolicy=custom" alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Tênis Asics</h2>
+            <p class="lead">Desde 1949 nosso objetivo é melhorar o bem estar mental por meio do movimento. É por isso que somos chamados de ASICS, que é um acrônimo para a frase em latim "Anima Sana In Corpore Sano", mente sã em corpo são.</p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="https://static3.tcdn.com.br/img/img_prod/868773/tenis_asics_gel_resolution_8_french_blue_3277_1_aa989082e06cb3af451f02f3d9bfba0d.jpg" alt="Generic placeholder image">
         </div>
     </div>
 
