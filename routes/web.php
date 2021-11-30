@@ -21,10 +21,6 @@ Route::get('/', function () {
     return view('home');
 })->name('homepage');
 
-Route::get('/signup', function () {
-    return view('signup');
-})->name('signup');
-
 Route::get('/howweare', function () {
     return view('howweare');
 })->name('howweare');
@@ -38,16 +34,16 @@ Route::get('/highlights', function () {
 })->name('highlights');
 
 Route::get('/produtos/novo', [ProdutosController::class, 'create'])->name('productpage');
-Route::post('/produtos/novo', [ProdutosController::class, 'store'])->name('registrar_produto');
+Route::post('/produtos/novo', [ProdutosController::class, 'store'])->name('registrar.produto');
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/admin', [AuthController::class, 'dashboard'])->name('admin');
 Route::get('/admin/show', [ContactsController::class, 'show'])->name('admin.show');
+
 Route::post('/contacts/create', [ContactsController::class, 'store'])->name('create.contacts');
 
 Route::get('/admin/login', [AuthController::class, 'showLoginForm'])->name('admin.login');
-Route::post('/admin/signup/do', [AuthController::class, 'store'])->name('admin.signup.do');
 Route::get('/admin/logout', [AuthController::class, 'logout'])->name('admin.logout');
 Route::post('/admin/login/do', [AuthController::class, 'login'])->name('admin.login.do');

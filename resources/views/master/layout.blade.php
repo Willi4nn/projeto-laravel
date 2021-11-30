@@ -48,7 +48,7 @@
                     <button class="btn btn-outline-light" type="submit">Pesquisar</button>
                 </form>
                 <a class="btn btn-primary mr-sm-2" type="submit" href="{{ route('admin') }}" role="button">Entrar</a>
-                <a class="btn btn-info mr-sm-2" type="submit" href="{{ route('signup') }}" role="button">Cadastre-se</a>
+                <a class="btn btn-info mr-sm-2" type="submit" href="{{ route('register') }}" role="button">Cadastre-se</a>
                 <a href="{{ route('admin.logout')}}"><button type="submit" class="btn btn-outline-danger">Logout</button></a>
             </div>
         </nav>

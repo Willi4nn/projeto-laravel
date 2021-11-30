@@ -21,6 +21,6 @@ class ProdutosController extends Controller
             'quantidade' => $request->quantidade,
         ]);
 
-        return view('produtos.productpage');
+        return "Produto armazenado com sucesso!";
     }
 }
